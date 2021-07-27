@@ -1,0 +1,15 @@
+{
+    "extends": ".\\tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": "..\\out",
+        "inlineSources": false,
+        "sourceMap": false,
+        "declaration": false,
+    },
+    "exclude": [
+        "../**/tests",
+        "../**/out",
+        "../**/node_modules",
+        "../**/app.ts"
+    ]
+}

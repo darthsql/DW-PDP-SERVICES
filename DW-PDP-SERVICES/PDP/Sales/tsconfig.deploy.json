@@ -1,0 +1,6 @@
+{
+    "extends": "..\\configs\\tsconfig.deploy.base.json",
+    "compilerOptions": {
+        "outDir": "..\\out\\Sales"
+    }
+}
